@@ -108,6 +108,8 @@ public class Calculator implements ActionListener {
         } else if (e.getSource() == eqButton) {
             num2 = Double.parseDouble(textField.getText());
 
+
+
             switch (operator) {
                 case '+': result = num1 + num2; break;
                 case '-': result = num1 - num2; break;
